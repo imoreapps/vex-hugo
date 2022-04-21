@@ -1,5 +1,5 @@
 baseurl = "https://imoreapps.netlify.app"
-disableLanguages = []
+disableLanguages = ["fr"]
 googleAnalytics = ""
 summarylength = "20"
 theme = "vex-hugo"
@@ -19,38 +19,25 @@ weight = 2
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 3
-[[menu.footer]]
 name = "Terms & Conditions"
 url = "terms-conditions/"
-weight = 2
+weight = 3
 [[menu.footer]]
-name = "Contact"
-url = "contact/"
-weight = 1
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 5
-[[menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
+name = "Privacy Policy"
+url = "privacy-policy/"
 weight = 4
 [[menu.main]]
-name = "Blog"
-url = "blog/"
-weight = 3
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 name = "Products"
 url = "products/"
 weight = 2
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+name = "Contact"
+url = "contact/"
+weight = 5
 [params]
 author = "Themefisher"
 contact_form_action = "#"
