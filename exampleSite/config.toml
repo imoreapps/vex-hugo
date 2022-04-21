@@ -1,4 +1,4 @@
-baseurl = "https://imoreapps.netlify.com"
+baseurl = "https://imoreapps.netlify.app"
 disableLanguages = []
 googleAnalytics = ""
 summarylength = "20"
